@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://pptech-ds.github.io"
 languageCode = "en"
 title = "Pras's Techinical Blog"
 theme = "hugo-initio"
