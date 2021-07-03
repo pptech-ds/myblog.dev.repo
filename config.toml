@@ -1,0 +1,72 @@
+baseURL = "https://example.com/"
+languageCode = "en"
+title = "Pras's Techinical Blog"
+theme = "hugo-initio"
+
+[params]
+    name = "Prasanth Pushparasah"
+    description = "17 Years Experimented Developer - Ready To Deserve Your Projects !"
+    email = "pptech.ds@gmail.com"
+    
+    
+    year = 2021
+    avatar = "images/pras_avatar_deadpool.PNG"
+    avatarclass = "circle"
+    background = ""
+    banner = "images/header1.png"
+    favicon = "images/gt_favicon.png"
+    DateForm = "July 2, 2021"
+    author = "Prasanth Pushparasah"
+
+    showSubheader = true
+    showServices = false
+    showRecentWorks = true
+    showDownloads = false
+    showClients = false
+
+    showFooterContact = true
+    showFooterFollowMe = true
+    showFooterTextWidget = false
+    showFooterFormWidget = false
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "blog"
+    url = "/post/"
+    weight = 5
+
+[params.disqus]
+    site = "hugo-initio-site.disqus.com"
+
+[params.sharethis]
+    property = "123456789012345678901234"
+    custom = true
+
+[params.google.analytics]
+    trackerID = "GA-000000000-0"
+
+
+[[params.social]]
+	title = "linkedin"
+	url = "https://www.linkedin.com/in/nickname"
+    icon = "fab fa-linkedin"
+    footer = true
+    sharethis = true
+    network = "linkedin"
+[[params.social]]
+	title = "github"
+	url = "https://github.com/nickname"
+    icon = "fab fa-github"
+    footer = true
+    sharethis = true
+    network = ""
+[[params.social]]
+	title = "email"
+	url = "mailto:pptech.ds@gmail.com"
+    icon = "fas fa-envelope-square"
+    footer = false
+    sharethis = true
+    network = "email"

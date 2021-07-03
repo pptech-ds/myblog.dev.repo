@@ -1,0 +1,7 @@
+[submodule "themes/hugo-initio"]
+	path = themes/hugo-initio
+	url = https://github.com/miguelsimoni/hugo-initio.git
+[submodule "public"]
+	path = public
+	url = https://github.com/pptech-ds/pptech-ds.github.io.git
+	branch = main
